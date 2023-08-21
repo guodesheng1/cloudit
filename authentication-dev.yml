@@ -4,9 +4,9 @@ spring:
   application:
     name: authenticationserver
   datasource:
-    password:
-    username:
-    url:
+    password: cK2AN6WkeajfFXJi
+    username: coc
+    url: jdbc:mysql://localhost:3306/coc
     driver-class-name: com.mysql.cj.jdbc.Driver
 management:
   endpoints:
