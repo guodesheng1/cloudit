@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: authenticationserver
+  datasource:
+    password:
+    username:
+    url:
+    driver-class-name: com.mysql.cj.jdbc.Driver
 management:
   endpoints:
     web:
